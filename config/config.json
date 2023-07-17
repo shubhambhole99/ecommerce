@@ -1,0 +1,25 @@
+{"development": {
+    "username": "admin1",
+    "password": "admin123",
+    "database": "postgres",
+    "host": "db1-petaahar.cqambmeo2peg.ap-south-1.rds.amazonaws.com",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "admin1",
+    "password": "admin123",
+    "database": "postgres",
+    "host": "db1-petaahar.cqambmeo2peg.ap-south-1.rds.amazonaws.com",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "admin1",
+    "password": "admin123",
+    "database": "postgres",
+    "host": "db1-petaahar.cqambmeo2peg.ap-south-1.rds.amazonaws.com",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
