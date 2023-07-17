@@ -1,7 +1,8 @@
 const express = require('express');
 const next = require('next');
 
-const dev = "development";
+// const dev = process.env.NODE_ENV !== 'production';
+const dev='development'
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
@@ -21,7 +22,7 @@ app.prepare().then(() => {
     return handle(req, res);
   });
 
-  const port = process.env.PORT||3000; // Port number to run the server on
+  const port = process.env.PORT||4000; // Port number to run the server on
   server.listen(port, (err) => {
     if (err) throw err;
     console.log(`Express server started on http://localhost:${port}`);
