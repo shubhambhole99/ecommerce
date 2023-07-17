@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build && export",
+    "start": "node server.js"
   },
   "dependencies": {
     "apexcharts": "^3.28.3",
